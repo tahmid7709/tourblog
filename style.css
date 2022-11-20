@@ -99,7 +99,7 @@ html,body {
 
 .card
 {
-    width: 97%;  
+    width: 100%;  
 }
 .card img
 {
@@ -140,7 +140,7 @@ html,body {
 }
 .card:hover{
 
-    box-shadow: 5px 8px 7px #888888; 
+    box-shadow: 3px 3px 15px #888888; 
   }
   .card:hover img {
 
