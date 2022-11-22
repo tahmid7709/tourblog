@@ -2,7 +2,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
 body{
-	font-family: Arial;
 	margin:auto;
 	padding:20px;
 	background-color: #f9f1f1;
@@ -137,6 +136,20 @@ h2{
 	background-color: #777777;
 	border-style: none;
 }
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    text-align: center;
+    padding: 10px;
+    z-index: 100;
+    display: none;
+    background-color: #00B9D6;
+    border-radius: 35px;
+	box-shadow:7px 7px 10px rgba(0, 0, 0, 0.40);
+  }
 footer{
 	background-color: #212529;
 	color: #ffffff;
