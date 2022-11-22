@@ -20,6 +20,8 @@ header{
 .navbtn
 {
 	text-align: center;
+	margin-left: 50px;
+    margin-right: 50px;
 }
 .navbar a img
 {
@@ -33,6 +35,10 @@ header{
     position: absolute;
     right: 15px;
     top: 12px;
+}
+.nav-item a
+{
+    font-size: 20px;
 }
 .header h1{
 	text-align: center;
