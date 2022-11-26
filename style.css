@@ -6,22 +6,21 @@ html,body {
     margin:0;
     padding:0;
     overflow-x:hidden;
+    background-color: #FBFFF0 !important;
     
 }
 *
 {
     font-family: 'Hind Siliguri', sans-serif;
 }
-.cards
-{
-    background-color: #F9F9F9;
-}
+
 .header
 {
     padding-top: 30px;
     text-align: center;
     color: #fff;
     margin: 0 auto;
+    background-color: #FAF2B5;
 }
 .header a img
 {
@@ -30,18 +29,20 @@ html,body {
     margin-left: 50px;
 
 }
-#m-hero
+.hero h1
 {
-     --mq-font-family: 'Mina', sans-serif;
-     --mq-font-size: 1.9rem;
-     --mq-bg: #9eeaf9;
-     --mq-hover-bg: #6edff6;
+    font-size: 55px;
+    text-shadow: #474747 3px 5px 2px;
 }
 .header h1
 {
     padding-top: 200px;
     padding-bottom: 0;
     font-size: 55px;
+}
+.navbar
+{
+    background-color: #FEFCED !important;
 }
 .navbtn
 {
@@ -79,7 +80,6 @@ html,body {
     max-width: 400px;
     border-radius: 30px;
     background: #fff;
-    box-shadow: 5px 8px 7px #888888
 }
 .form-control
 {
@@ -92,13 +92,14 @@ html,body {
 {
     width: 100px;
     height: 40px;
-    background-image: linear-gradient(#66FFBF,#00B9D6);
+    background-image: linear-gradient(#C2EDCE,#C2EDCE);
     border: 0 !important ;
     color: #9E0E62 !important ;
     font-weight: 400 !important;
     padding: 0 25px !important;
     border-radius: 30px !important;
     box-shadow: none !important;
+    
 }
 
 .card
@@ -114,7 +115,8 @@ html,body {
 
 .card-body h3
 {
-    color: #EF532A;
+    color: #F58D78;
+    text-shadow: #474747 1px 1px 1px;
 }
 .card-body p
 {
@@ -124,7 +126,7 @@ html,body {
 {
     text-decoration: none;
     font-size: 18px;
-    color: #EF532A;
+    color: #F58D78;
 }
 
 .scrollup {
@@ -137,7 +139,7 @@ html,body {
     padding: 10px;
     z-index: 100;
     display: none;
-    background-color: #00B9D6;
+    background-color: #4A6163;
     border-radius: 35px;
     box-shadow:7px 7px 10px rgba(0, 0, 0, 0.40);
   }
