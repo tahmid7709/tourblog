@@ -125,9 +125,60 @@ h2{
 	color: #E14D43;
 	text-decoration: none;
 }
-#mytabcontent
+
+  #exTab1 .nav-fill > li > a {
+	border-radius: 24% 21% 10% 10% / 18% 18% 0% 0% ;
+  }
+  #exTab1 .tab-pane 
+  {
+	 padding : 5px 15px;
+  }
+  #exTab1 .tab-content > [id='places']  {
+    background-color: #C2EDCE;
+}
+
+#exTab1 .tab-content > [id='hotel']  {
+    background-color: #EED7D5;
+}
+
+#exTab1 .tab-content > [id='hospital']  {
+    background-color: #FFD166;
+}
+
+
+
+/* pills styling */
+#exTab1 .nav-fill > li > a {
+  border-radius: 0;
+}
+.nav-fill > li > a.placetab {
+    color: #4A6163;
+    border: none;
+}
+.nav-fill > li > a.placetab.active {
+    background-color: #C2EDCE;
+    color: #4A6163;
+    border: none;
+}
+.nav-fill > li > a.hoteltab {
+    color: #F17A7E;
+    border: none;
+}
+.nav-fill > li> a.hoteltab.active {
+    background-color: #EED7D5;
+    border: none;
+}
+.nav-fill > li > a.hospitaltab {
+    color: #A97524;
+    border: none;
+}
+.nav-fill > li > a.hospitaltab.active {
+    background-color: #FFD166;
+    border: none;
+}
+#hotel > ul >li > a
 {
-	background-color: #EAF3EE;
+	color: #DF4C73 !important;
 }
 .review 
 {
