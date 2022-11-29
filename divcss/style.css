@@ -9,9 +9,12 @@
     font-family: 'Hind Siliguri', sans-serif;
 
 }
+
 body
 {
-    background: #deffde !important;
+    background: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container
 {
@@ -23,6 +26,8 @@ body
     font-size: 30px;
     text-align: center;
     padding-bottom: 15px;
+    color:#fff;
+    text-shadow: #474747 2px 2px 2px;
 }
 .header 
 {
@@ -58,15 +63,15 @@ body
 }
 .card
 {
-    padding: auto;
-    width: 150px;
-    height: 200px;
-    border-radius: 40px;
-    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.15);
-    cursor:pointer;
-    pointer-events: auto;
-    z-index: 2;
-    cursor: pointer
+    background: rgba(255,255,255,0.5) !important;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+    position:relative;
+    color:white;
+    z-index:1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     
 }
 .card img
@@ -75,10 +80,12 @@ body
     margin: auto;
     transition: 0.5S;
 }
-.card h5
+.card a
 {
     font-size: 18px;
     margin: auto;
+    text-decoration: none;
+    color:#3D3D3D ;
 }
 
 .card:hover img
@@ -100,7 +107,11 @@ body
     padding: 10px;
     z-index: 100;
     display: none;
-    background-color: #00B9D6;
+    background-color: #4A6163;
     border-radius: 35px;
     box-shadow:7px 7px 10px rgba(0, 0, 0, 0.40);
+  }
+  .scrollup .bi
+  {
+    color: #F48200;
   }

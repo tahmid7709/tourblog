@@ -6,7 +6,10 @@ html,body {
     margin:0;
     padding:0;
     overflow-x:hidden;
-    background-color: #FBFFF0 !important;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     
 }
 *
@@ -104,6 +107,14 @@ html,body {
 
 .card
 {
+    background: rgba(255,255,255,0.5) !important;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+    position:relative;
+    z-index:1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     width: 100%;  
 }
 .card img
