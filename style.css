@@ -123,6 +123,18 @@ html,body {
     margin: auto;
     transition: 0.5s;
 }
+.card .location i
+{
+    color: #ff7458;
+}
+.card .location a
+{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 2px 3px 2px #6B6B6B;
+}
 
 .card-body h3
 {
@@ -132,6 +144,7 @@ html,body {
 .card-body p
 {
     font-size: 18px;
+    text-align: start;
 }
 .card-body a
 {
