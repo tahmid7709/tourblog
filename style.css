@@ -6,9 +6,20 @@ html,body {
     margin:0;
     padding:0;
     overflow-x:hidden;
-    background: #FFEFBA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(255, 255, 237, 1) 11%, rgba(255, 247, 176, 1) 48%, rgba(188, 255, 237, 1) 85%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(255, 255, 237, 1) 11%, rgba(255, 247, 176, 1) 48%, rgba(188, 255, 237, 1) 85%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(255, 255, 237, 1) 11%, rgba(255, 247, 176, 1) 48%, rgba(188, 255, 237, 1) 85%);
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(255, 255, 237, 1) 11%, rgba(255, 247, 176, 1) 48%, rgba(188, 255, 237, 1) 85%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(255, 255, 237, 1) 11%, rgba(255, 247, 176, 1) 48%, rgba(188, 255, 237, 1) 85%);
 
     
 }
@@ -123,6 +134,18 @@ html,body {
     margin: auto;
     transition: 0.5s;
 }
+.card .location i
+{
+    color: #ff7458;
+}
+.card .location a
+{
+    font-size: 20px;
+    color: #FFFCDF;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 2px 3px 2px #6B6B6B;
+}
 
 .card-body h3
 {
@@ -132,6 +155,7 @@ html,body {
 .card-body p
 {
     font-size: 18px;
+    text-align: start;
 }
 .card-body a
 {
