@@ -45,30 +45,28 @@
 			
 
 			  <div>
-				<h1 class="my-4">ভ্রমণ কাহিনী লিখুন</h1>
+				<h1 class="my-4">ভ্রমণ কাহিনী পাঠান</h1>
 				<p>আপনি কি ভ্রমণ কাহিনী লিখতে পছন্দ করেন? তাহলে আর দেরী না করে আপনার লেখা ভ্রমণ কাহিনী আজই আমাদের কাছে পাঠাতে পারেন। আমরা আমাদের সাইটে আপনার ক্রেডিটসহ প্রকাশ করবো।</p>
 				<p>আপনার লেখা ভ্রমণ কাহিনী মাইক্রোসফট ওয়ার্ডে অথবা পিডিএফ করে পাঠাতে পারেন নিচের ফর্ম থেকে। </p>
 				<strong>একের অধিক ফাইল পাঠাতে চাইলে সবগুলো একবারে সিলেক্ট করে এটাচ করুন</strong>
                 <form class="d-flex flex-column">
-					<input type="text" class="border border-1 my-4  p-2" name="text" placeholder="আপনার ভ্রমণ কাহিনীর শিরোনাম লিখুন">
-					<input type="text" class="p-2 border border-1 my-4"placeholder="লেখকের নাম"required>
-					<p class="py-2">ভ্রমণের বিস্তারিত এখানে লিখুন ...</p>
-                    	<textarea class="form-control my-4" id="myTextarea" rows="3"></textarea>
-					<div class="w-100 border border-2 my-4 p-2">
-						<label class="fw-bold" for="text">ভ্রমণ সম্পৃক্ত ছবি</label>
-						<p class="py-2">সর্বোচ্চ ৮টি ছবি পাঠাতে পারবেন। প্রতিটি ছবি সর্বোচ্চ ১ এমবি সাইজের হতে পারবে। শুধুমাত্র JPG, JPEG ফরম্যাটের ছবিই পাঠানো যাবে। সব থেকে ভালো হবে যদি ছবির সাইজ ৮৩০X৪৩৫ সাইজের হয়ে থাকে।</p>
-						<div class="rounded-3 d-flex justify-content-center align-items-center imgup">
-							<input class="p-2" id="files" type="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg">
-						</div>
+					<input type="text" class="border border-1 my-2 p-2" name="text" placeholder="আপনার নাম*" required>
+					<input type="text" class="p-2 border border-1 my-2"placeholder="আপনার ই-মেইল*"required>
+					<input type="text" class="p-2 border border-1 my-2" placeholder="আপনার প্রোফাইল লিংক (ফেইসবুক, টুইটার, ব্লগ...)">
+					<textarea class="form-control my-2" placeholder="বিস্তারিত লিখুন*.." id="Textarea1" rows="3" required></textarea>
+					<div class="rounded-3 d-flex align-items-center mt-3">
+						<input class="p-2" id="files" type="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg">
 					</div>
-					<label  class="fw-bold" for="text" >লেখকের নাম * </label>
-                    	<input type="text" class="p-2 border border-1 my-4"placeholder="লেখকের নাম"required>
-					<label class="fw-bold" for="text">লেখকের ইউ আর এল</label>
-                    	<input type="text" class="p-2 border border-1 my-4" placeholder="লেখকের ইউ আর এল">
-					<label class="fw-bold" for="text">লেখক পরিচিতি</label>
-                    	<textarea class="form-control" placeholder="লেখক পরিচিতি এখানে লিখুন ..." id="Textarea1" rows="3"></textarea>
-					<input type="submit" id="submit" class="bg-dark text-white rounded-2 p-2 border border-1 my-4" value="ভ্রমণ কাহিনী সংরক্ষণ করুন">
-                  </form>
+					<div class="d-flex my-2">
+					<input type="checkbox" id="checkcondition" name="checkcondition" value="checkcondition">
+					<label class="ps-2" for="vehicle1"> এখানে পাঠানো সকল কিছু কপিরাইট স্বত্বা মেনে চলে।</label>
+					</div>
+					<p><i class="bi bi-bookmark-fill pe-2"></i>একের অধিক ফাইল পাঠাতে চাইলে সবগুলো একবারে সিলেক্ট করে এটাচ করুন।</p>
+					<p><i class="bi bi-bookmark-fill pe-2"></i>আপনার ফাইলগুলোর সম্মিলিত সাইজ সর্বোচ্চ ১০ মেগাবাইট হতে পারবে না।</p>
+					<p><i class="bi bi-bookmark-fill pe-2"></i>আপনি doc, docx, pdf, jpg, jpeg, png, txt ফরম্যাটের ফাইল পাঠাতে পারবেন।</p>
+					<p><i class="bi bi-bookmark-fill pe-2"></i>zip কিংবা rar করে পাঠানো যাবে না।</p>
+				</form>
+				<input type="submit" id="submit" class="bg-dark text-white rounded-2 p-2 border border-1 my-4" value="প্রেরণ করুন">
 
 				 
 				 

@@ -61,14 +61,14 @@ header{
     position: absolute;
     background: #000000;
     width: 0;
-    height: 3px;
+    height: 2px;
     bottom: 0;
-    left: 0;
+    left: 50;
     transition: 0.3s ease;
 }
 .header .navbtn .nav-item a:hover:before
 {
-    width: 100%;
+    width: 75%;
 }
 
 
