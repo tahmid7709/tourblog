@@ -61,6 +61,28 @@ body
     right: 15px;
     top: 12px;
 }
+.header .navbtn .nav-item a
+{
+    font-size: 20px;
+    position: relative;
+    color: #000000;
+    transition: 0.3s ease;
+}
+.header .navbtn .nav-item a::before
+{
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50;
+    transition: 0.3s ease;
+}
+.header .navbtn .nav-item a:hover:before
+{
+    width: 75%;
+}
 .col a
 {
     text-decoration: none;
