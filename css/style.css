@@ -31,7 +31,7 @@ header{
 }
 .navbar a img
 {
-    width: 90px;
+    width: 150px;
     float: left;
     margin-left: 40px;
 
@@ -48,6 +48,11 @@ header{
 	color:#000000;
 	margin:1.5 0px;
 }
+.header .navbtn .nav-item:hover
+{
+    background-color: #dd7474;
+    border-radius: 5px;
+}
 .header .navbtn .nav-item a
 {
     font-size: 20px;
@@ -63,12 +68,13 @@ header{
     width: 0;
     height: 2px;
     bottom: 0;
-    left: 50;
+    left: 0;
     transition: 0.3s ease;
 }
 .header .navbtn .nav-item a:hover:before
 {
-    width: 75%;
+    width: 100%;
+    background: #038a39;
 }
 
 
@@ -123,6 +129,10 @@ h2{
 {
 	font-size: 20px;
 	
+}
+.col .card-body
+{
+    text-align:center;
 }
 
 .rightcard .cardtext
@@ -249,9 +259,11 @@ h2{
 }
 .product .sub
 {
+    background: #F7D756;
     box-shadow: -10px -10px 15px rgb(255, 255, 255),
     8px 8px 25px #97a7c3;
     border: none;
+    
 }
 .scrollup {
     width: 50px;
@@ -271,7 +283,7 @@ h2{
   {
     color: #F48200;
   }
-footer{
+  footer{
 	background-color: #388087;
 	color: #ffffff;
 	padding: 20px;
