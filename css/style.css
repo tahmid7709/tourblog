@@ -50,7 +50,7 @@ header{
 }
 .header .navbtn .nav-item:hover
 {
-    background-color: #dd7474;
+    background-color: #A5DE94;
     border-radius: 5px;
 }
 .header .navbtn .nav-item a
@@ -59,6 +59,10 @@ header{
     position: relative;
     color: #000000;
     transition: 0.3s ease;
+}
+.header button
+{
+    border: 0;
 }
 .header .navbtn .nav-item a::before
 {
@@ -74,11 +78,11 @@ header{
 .header .navbtn .nav-item a:hover:before
 {
     width: 100%;
-    background: #038a39;
+    background: #dc0505;
 }
 
-
-h2{
+h2
+{
 	color:#000000;
 	margin:1.5 0px;	
 }
