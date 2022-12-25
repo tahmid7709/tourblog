@@ -4,30 +4,31 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>বাংলাদেশের জেলাসমূহ</title>
       <link rel="stylesheet" href="divcss/style.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-      <title>Document</title>
+      <script src="https://unpkg.com/scrollreveal@4"></script>
    </head>
    <body>
       <div class="header">
-         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
-            <button class="navbar-toggler mr-5 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+         <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top">
+            <a class="navbar-brand img" href="index.html"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon mr-5"></span>
             </button>
             <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mt-0 mb-2 mb-lg-0 navbtn ">
+               <ul class="navbar-nav mt-0 mb-2 mb-lg-0 navbtn">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">বাংলাদেশ</a>
+                     <a class="nav-link active" href="bddivision.html">বাংলাদেশ</a>
                   </li>
                   <li class="nav-item ">
-                     <a class="nav-link active" href="bhromonkahini.html">ভ্রমণ কাহিনী লিখুন</a>
+                     <a class="nav-link" href="bhromonkahini.html">ভ্রমণ কাহিনী লিখুন</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link active" href="bhromonkahini_2.html">ভ্রমণ কাহিনী পাঠান</a>
+                     <a class="nav-link" href="bhromonkahini_2.html">ভ্রমণ কাহিনী পাঠান</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link active" href="#">লগ ইন</a>
+                  <li class="nav-item ">
+                     <a class="nav-link login " href="#">লগ ইন</a>
                   </li>
                </ul>
             </div>
@@ -198,7 +199,9 @@
            }, 600);
            return false;
          })
-         
       </script>
+      <script>
+         ScrollReveal().reveal('.card', { interval: 200 });
+       </script>
    </body>
 </html>
