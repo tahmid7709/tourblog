@@ -19,29 +19,6 @@ header{
 	padding: 0;
 	
 }
-.navbar
-{
-    background-color: #eaf9ee !important;
-}
-.navbtn
-{
-	text-align: center;
-	margin-left: 50px;
-    margin-right: 50px;
-}
-.navbar a img
-{
-    width: 150px;
-    float: left;
-    margin-left: 40px;
-
-}
-.navbar-toggler
-{
-    position: absolute;
-    right: 15px;
-    top: 12px;
-}
 .header h1{
 	text-align: center;
 	font-size:60px;
@@ -52,33 +29,50 @@ header{
 {
     border: 0;
 }
-.header .navbtn .nav-item a
-{
+.header a img {
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+}
+.header .navbtn .nav-item a {
     font-size: 20px;
     position: relative;
-    color: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
     transition: 0.3s ease;
 }
-.header .navbtn .nav-item a::before
+.header .navbtn .nav-item .login
 {
-    content: '';
+   border: #F67777 solid 2px;
+   color: #fff;
+   border-radius: 20px !important;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #0088ab;
+}
+.header .navbtn .nav-item:hover {
+    background-color: #ADEAD9;
+    border-radius: 20px;
+}
+.navbar {
+   background-color: #FDFDEB;
+   --bs-navbar-padding-y: 0 !important;
+}
+.navbtn {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav-item a {
+    font-size: 20px;
+}
+.navbar-toggler {
     position: absolute;
-    background: #000000;
-    width: 0;
-    height: 3px;
-    bottom: 0;
-    left:0;
-    transition: 0.3s ease;
-}
-.header .navbtn .nav-item a:hover:before
-{
-    width: 100%;
-    background: #dc0505;
-}
-.header .navbtn .nav-item:hover
-{
-    background-color: #A5DE94;
-    border-radius: 5px;
+    right: 15px;
+    top: 12px;
 }
 
 h2{

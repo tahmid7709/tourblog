@@ -19,68 +19,63 @@ header{
 	padding: 0;
 	
 }
-.navbar
-{
-    background-color: #eaf9ee !important;
-}
-.navbtn
-{
-	text-align: center;
-	margin-left: 50px;
-    margin-right: 50px;
-}
-.navbar a img
-{
-    width: 150px;
-    float: left;
-    margin-left: 40px;
-
-}
-.navbar-toggler
-{
-    position: absolute;
-    right: 15px;
-    top: 12px;
-}
 .header h1{
 	text-align: center;
 	font-size:60px;
 	color:#000000;
 	margin:1.5 0px;
 }
-.header .navbtn .nav-item:hover
-{
-    background-color: #A5DE94;
-    border-radius: 5px;
+.header a img {
+    width: 200px;
+    float: left;
+    margin-left: 50px;
 }
-.header .navbtn .nav-item a
-{
+.header .navbtn .nav-item a {
     font-size: 20px;
     position: relative;
-    color: #000000;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     transition: 0.3s ease;
+}
+.header .navbtn .nav-item .login
+{
+   border: #F67777 solid 2px;
+   color: #fff;
+   border-radius: 20px !important;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #0088ab;
+}
+.header .navbtn .nav-item:hover {
+    background-color: #ADEAD9;
+    border-radius: 20px;
+}
+.navbar {
+   background-color: #FDFDEB;
+   --bs-navbar-padding-y: 0 !important;
+}
+.navbtn {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav-item a {
+    font-size: 20px;
+}
+.navbar-toggler {
+    position: absolute;
+    right: 15px;
+    top: 12px;
 }
 .header button
 {
     border: 0;
 }
-.header .navbtn .nav-item a::before
-{
-    content: '';
-    position: absolute;
-    background: #000000;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s ease;
-}
-.header .navbtn .nav-item a:hover:before
-{
-    width: 100%;
-    background: #dc0505;
-}
-
 h2
 {
 	color:#000000;
@@ -195,60 +190,82 @@ h2
 	color: #E14D43;
 	text-decoration: none;
 }
-
-  #exTab1 .nav-fill > li > a {
+.nav-item a
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+.nav-link
+{
+    border: none;
+    border-radius: 30px 30px 0 0 !important;
+}
+#exTab1
+{
+    margin-bottom: 5px;
+    border: none;
+}
+#exTab1 .nav-fill li  a {
 	border-radius: 24% 21% 10% 10% / 18% 18% 0% 0% ;
   }
-  #exTab1 .tab-pane 
+#exTab1 .tab-pane 
   {
 	 padding : 5px 15px;
   }
-  #exTab1 .tab-content > [id='places']  {
+#exTab1 .tab-content  [id='places']  {
     background-color: #C2EDCE;
 }
 
-#exTab1 .tab-content > [id='hotel']  {
+#exTab1 .tab-content  [id='hotel']  {
     background-color: #EED7D5;
 }
 
-#exTab1 .tab-content > [id='hospital']  {
+#exTab1 .tab-content  [id='hospital']  {
     background-color: #FFD166;
 }
-
-
-
 /* pills styling */
-#exTab1 .nav-fill > li > a {
+#exTab1 .nav-fill  li  a {
   border-radius: 0;
 }
-.nav-fill > li > a.placetab {
+.nav-fill  li a.placetab {
     color: #4A6163;
     border: none;
 }
-.nav-fill > li > a.placetab.active {
+.nav-fill  li  a.placetab.active {
     background-color: #C2EDCE;
     color: #4A6163;
     border: none;
 }
-.nav-fill > li > a.hoteltab {
+.nav-fill  li  a.hoteltab {
     color: #F17A7E;
     border: none;
 }
-.nav-fill > li> a.hoteltab.active {
+.nav-fill  li a.hoteltab.active {
     background-color: #EED7D5;
     border: none;
 }
-.nav-fill > li > a.hospitaltab {
+.nav-fill li  a.hospitaltab {
     color: #A97524;
     border: none;
 }
-.nav-fill > li > a.hospitaltab.active {
+.nav-fill  li  a.hospitaltab.active {
     background-color: #FFD166;
     border: none;
 }
-#hotel > ul >li > a
+#hotel  ul li  a
 {
 	color: #DF4C73 !important;
+}
+.tab-pane ul
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+}
+.tab-pane ul li
+{
+    font-size: 18px;
+
 }
 .review 
 {

@@ -37,44 +37,51 @@
      float: left;
      margin-left: 40px;
 }
- .header .navbtn .nav-item:hover {
-     background-color: #A5DE94;
-     border-radius: 5px;
+.header .navbtn .nav-item a {
+    font-size: 20px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    transition: 0.3s ease;
 }
- .navbtn {
-     margin-left: 50px;
-     margin-right: 50px;
+.header .navbtn .nav-item .login
+{
+   border: #F67777 solid 2px;
+   color: #fff;
+   border-radius: 20px !important;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #0088ab;
 }
- .nav-item a {
-     font-size: 20px;
+.header .navbtn .nav-item:hover {
+    background-color: #ADEAD9;
+    border-radius: 20px;
 }
- .navbar-toggler {
-     position: absolute;
-     right: 15px;
-     top: 12px;
+.navbar {
+   background-color: #FDFDEB;
+   --bs-navbar-padding-y: 0 !important;
 }
- .header .navbtn .nav-item a {
-     font-size: 20px;
-     position: relative;
-     color: #000000;
-     transition: 0.3s ease;
+.navbtn {
+    margin-left: 50px;
+    margin-right: 50px;
 }
+.nav-item a {
+    font-size: 20px;
+}
+.navbar-toggler {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+} 
  .header button {
      border: 0;
 }
- .header .navbtn .nav-item a::before {
-     content: '';
-     position: absolute;
-     background: #000000;
-     width: 0;
-     height: 2px;
-     bottom: 0;
-     left: 50;
-     transition: 0.3s ease;
-}
- .header .navbtn .nav-item a:hover:before {
-     width: 100%;
-     background: #dc0505;
+.header a img {
+    width: 200px;
+    float: left;
+    margin-left: 50px;
 }
  .col a {
      text-decoration: none;
